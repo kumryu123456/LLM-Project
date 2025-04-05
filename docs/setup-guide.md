@@ -40,7 +40,6 @@ Copyright (c) 2005-2025 NVIDIA Corporation
 Built on Sun_Sep_10_19:22:12_PDT_2025
 Cuda compilation tools, release 11.8, V11.8.89
 
-
 ---
 
 ## 📌 3. cuDNN 설치
@@ -89,6 +88,7 @@ CUDA와 cuDNN을 사용하려면 환경 변수를 설정해야 합니다.
     ```
 
 환경 변수를 적용하려면 아래 명령어를 실행하세요:
+
 ```
 source ~/.bashrc
 ```
@@ -111,19 +111,48 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 ```python
 import torch
-print(f"PyTorch 버전: {torch.__version__}")
+
+print(f"PyTorch 버전: {torch.version}")
 print(f"CUDA 사용 가능 여부: {torch.cuda.is_available()}")
 if torch.cuda.is_available():
     print(f"CUDA 버전: {torch.version.cuda}")
+    print(f"cuDNN 버전: {torch.backends.cudnn.version()}")
+    print(f"GPU 개수: {torch.cuda.device_count()}")
+    print(f"현재 사용 중인 GPU 인덱스: {torch.cuda.current_device()}")
     print(f"GPU 이름: {torch.cuda.get_device_name(0)}")
 ```
 
 **실행 결과 예시**:
-PyTorch 버전: 2.6.0+cu118
 CUDA 사용 가능 여부: True
 CUDA 버전: 11.8
+cuDNN 버전: 90100
+GPU 개수: 1
+현재 사용 중인 GPU 인덱스: 0
 GPU 이름: NVIDIA GeForce RTX 4070 Ti SUPER
 
+---
+
+## 📌 추가 테스트 코드
+
+### **Python ≥3.9 확인**
+```python
+import sys
+print("Python 버전:", sys.version_info)
+assert sys.version_info >= (3, 9)
+```
+
+### **간단한 텐서 생성 테스트**
+```python
+import torch
+
+x = torch.rand(5, 3)
+print("\nTest tensor:")
+print(x)
+if torch.cuda.is_available():
+    x_cuda = x.to('cuda')
+    print("Tensor on GPU:")
+    print(x_cuda)
+```
 ---
 
 ## 🔗 참고 링크
