@@ -9,31 +9,22 @@
 ---
 
 ## Hands-On 자료 📖
-1. [Hands-On Natural Language Processing with PyTorch 1.x](https://github.com/PacktPublishing/Hands-On-Natural-Language-Processing-with-PyTorch-1.x)
-   - NLP 모델 구현 및 텍스트 데이터 처리 실습.
-   - Attention 기반 신경망을 활용한 챗봇 생성.
-   - PyTorch를 활용한 딥러닝과 NLP 통합 학습.
-2. [Deep Learning for NLP with PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
-   - PyTorch를 활용한 NLP 딥러닝 기초 학습.
-   - 언어 모델링, Part-of-Speech 태깅 등 기본 NLP 문제 실습.
-3. [Hands-On Large Language Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)
-   - 최신 LLM 기술을 활용한 텍스트 분류, 클러스터링, 주제 모델링 실습.
-   - Prompt Engineering과 Retrieval-Augmented Generation(RAG) 학습.
-   - Multimodal LLM을 사용해 이미지와 텍스트 데이터를 결합.
+1. [Hands-On Large Language Models](https://github.com/HandsOnLLM/Hands-On-Large-Language-Models)
+2. [핸즈온 머신러닝 3판 GitHub 저장소](https://github.com/rickiepark/handson-ml3)
+   - 머신러닝 기초부터 딥러닝까지 체계적으로 학습 가능.
+   - TensorFlow 예제를 PyTorch로 변환하여 실습.
+3. [Hands-On Natural Language Processing with PyTorch 1.x](https://github.com/PacktPublishing/Hands-On-Natural-Language-Processing-with-PyTorch-1.x)
+4. [Deep Learning for NLP with PyTorch](https://pytorch.org/tutorials/beginner/deep_learning_nlp_tutorial.html)
 
 ---
 
 ## 『밑바닥부터 시작하는 딥러닝』 시리즈 📘
 1. [밑바닥부터 시작하는 딥러닝 1](https://github.com/WegraLee/deep-learning-from-scratch)
-   - 퍼셉트론, 신경망, 오차역전파법 등 기본 개념 학습.
-   - NumPy를 활용한 신경망 구현 실습.
 2. [밑바닥부터 시작하는 딥러닝 2](https://github.com/sunny1c/deep-learning-from-scratch-2)
-   - RNN, LSTM, GRU 등 시계열 데이터 처리.
-   - Word2Vec, Attention 메커니즘 학습.
 3. [밑바닥부터 시작하는 딥러닝 3](https://github.com/WegraLee/deep-learning-from-scratch-3)
-   - DeZero 프레임워크 구축 및 고급 신경망 설계.
 
 ---
+
 
 ## 추천 학습 순서 🗂️
 
@@ -48,9 +39,9 @@
 - 『밑바닥부터 시작하는 딥러닝 2』에서 RNN과 Attention 메커니즘 학습.
 
 ### 3️⃣ 후반 단계 (9~12주)
+- 핸즈온 머신러닝 3판을 활용해 데이터 전처리 및 모델 평가 실습.
 - PDF 텍스트 추출 기능과 QA 시스템 통합.
 - BLEU, F1 스코어 등 성능 평가 지표 활용법 익히기.
-- 『밑바닥부터 시작하는 딥러닝 3』에서 DeZero 프레임워크 구축 및 고급 신경망 설계.
 
 ---
 
