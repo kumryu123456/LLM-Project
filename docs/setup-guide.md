@@ -28,8 +28,9 @@ PyTorch 공식 사이트에서 환경에 맞는 설치 명령어를 확인하세
 [PyTorch 설치 페이지](https://pytorch.org/get-started/locally/)
 
 예시 (CUDA 11.8 지원):
-
+```python
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
 
 설치 확인:
 
@@ -40,7 +41,7 @@ print(f"CUDA 사용 가능 여부: {torch.cuda.is_available()}")
 if torch.cuda.is_available():
     print(f"CUDA 버전: {torch.version.cuda}")
     print(f"GPU 이름: {torch.cuda.get_device_name(0)}")
-
+```
 
 ---
 
