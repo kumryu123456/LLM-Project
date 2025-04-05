@@ -8,8 +8,9 @@ NVIDIA GPU에서 PyTorch를 실행하기 위한 CUDA 환경 설정 방법을 안
 
 GPU 드라이버가 올바르게 설치되어 있는지 확인:
 
+```python
 nvidia-smi
-
+```
 ---
 
 ## 2️⃣ CUDA Toolkit 설치
@@ -18,8 +19,9 @@ nvidia-smi
 
 설치 후 버전 확인:
 
+```python
 nvcc --version
-
+```
 ---
 
 ## 3️⃣ PyTorch 설치
