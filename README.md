@@ -25,3 +25,56 @@
 
 ### 1️⃣ 환경 설정
 Python 환경을 설정하고 필요한 패키지를 설치합니다:
+
+pip install -r requirements.txt
+
+### 2️⃣ 모델 실행
+다음 명령어로 메인 스크립트를 실행합니다:
+
+python src/main.py
+
+
+---
+
+## 학습 자료 📚
+
+👉 [공부용 자료 보기](docs/study-guide.md)  
+👉 [자주 묻는 질문(FAQ)](docs/faq.md)
+
+---
+
+## 설치 가이드 🛠️
+
+👉 [CUDA 및 PyTorch 설치 가이드 보기](docs/setup-guide.md)
+
+---
+
+## 기술 스택 🧰
+- **프로그래밍 언어**: Python 3.9+
+- **딥러닝 프레임워크**: PyTorch 2.6.0+cu118
+- **PDF 처리 라이브러리**: PyPDF2, PyMuPDF, Tesseract OCR
+
+---
+
+## 기여 방법 🤝
+
+1. 이 저장소를 포크합니다.
+2. 새로운 브랜치를 생성합니다:
+    ```
+    git checkout -b feature-name
+    ```
+3. 변경 사항을 커밋합니다:
+    ```
+    git commit -m "Add new feature"
+    ```
+4. 변경 사항을 푸시합니다:
+    ```
+    git push origin feature-name
+    ```
+5. Pull Request를 생성합니다.
+
+---
+
+## 문의하기 💬
+
+궁금한 점이나 제안 사항이 있다면 [Issues](https://github.com/username/project-name/issues)를 통해 문의해주세요.
