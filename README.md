@@ -26,13 +26,15 @@
 ### 1️⃣ 환경 설정
 Python 환경을 설정하고 필요한 패키지를 설치합니다:
 
+```python
 pip install -r requirements.txt
-
+```
 ### 2️⃣ 모델 실행
 다음 명령어로 메인 스크립트를 실행합니다:
 
+```python
 python src/main.py
-
+```
 
 ---
 
